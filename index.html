@@ -1,0 +1,22 @@
+<SCRIPT>
+	function passWord() {
+		var temp = 0;
+		var pass1 = prompt('Please Enter Your Password',' ');
+		while (temp != 1) {
+			if (pass1.toLowerCase() == "drowssap") 
+			{
+				window.open('home.html');
+				break;
+			}
+			var pass1 =
+			prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+		}
+		return " ";
+	}
+</SCRIPT>
+<CENTER>
+<FORM>
+<br><br><br><br><br>
+<input type="button" value="Click to Enter The Website" onClick="passWord()">
+</FORM>
+</CENTER>
